@@ -24,27 +24,27 @@
     <div class="container px-5 my-5">
         <div class="row gx-5">
             <div class="col-lg-4 mb-5 mb-lg-0">
-                <div class="feature bg-primary bg-gradient- text-white rounded-3 mb-3"><i class="bi bi-collection"></i></div>
-                <h2 class="h4 fw-bolder">Featured title</h2>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                <div class="feature bg-primary bg-gradient- text-white rounded-3 mb-3"><i class="bi bi-collection"></i>M</div>
+                <h2 class="h4 fw-bolder">Manfaat jamu herbal</h2>
+                <p>"Jamu herbal adalah obat tradisional Indonesia yang terbuat dari bahan-bahan alami, seperti akar-akaran, daun-daunan, dan buah-buahan. Jamu herbal memiliki banyak manfaat bagi kesehatan,</p>
                 <a class="text-decoration-none" href="#!">
                     Call to action
                     <i class="bi bi-arrow-right"></i>
                 </a>
             </div>
             <div class="col-lg-4 mb-5 mb-lg-0">
-                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
-                <h2 class="h4 fw-bolder">Featured title</h2>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building">K</i></div>
+                <h2 class="h4 fw-bolder">Kualitas jamu herbal</h2>
+                <p>"Kami hanya menggunakan bahan-bahan alami yang diolah dengan cara tradisional, sehingga jamu kami memiliki khasiat yang optimal, sehingga Anda dapat yakin akan keamanannya."</p>
                 <a class="text-decoration-none" href="#!">
                     Call to action
                     <i class="bi bi-arrow-right"></i>
                 </a>
             </div>
             <div class="col-lg-4">
-                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
-                <h2 class="h4 fw-bolder">Featured title</h2>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2">K</i></div>
+                <h2 class="h4 fw-bolder">Kemudahan pemesanan</h2>
+                <p>"Anda dapat memesan jamu herbal kami secara online melalui website kami atau melalui WhatsApp. Kami juga menyediakan layanan pengiriman yang cepat dan terjangkau."</p>
                 <a class="text-decoration-none" href="#!">
                     Call to action
                     <i class="bi bi-arrow-right"></i>
@@ -71,7 +71,7 @@
                                 <h4 class="card-title">{{ $book->name }}</h4>
                                 <p>{{ $book->author }}</p>
                                 <p class="card-text"><strong>Price: </strong> ${{ $book->price }}</p>
-                                <p class="btn-holder"><a href="{{ route('addbook.to.cart', $book->id) }}" class="btn btn-outline-danger">Add to cart</a> </p>
+                                <p class="btn-holder"><a href="{{ route('addbook.to.cart', $book->id) }}" class="btn btn-outline-primary">Add to cart</a> </p>
                             </div>
                         </div>
                     </div>
@@ -120,7 +120,7 @@
 <section class="bg-light py-5">
     <div class="container px-5 my-5 px-5">
         <div class="text-center mb-5">
-            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
+            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope">👋🏻</i></div>
             <h2 class="fw-bolder">Get in touch</h2>
             <p class="lead mb-0">We'd love to hear from you</p>
         </div>
