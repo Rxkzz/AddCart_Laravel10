@@ -12,7 +12,7 @@
                     <p class="lead text-white-50 mb-4">Temukan jamu herbal berkualitas dan alami untuk menjaga kesehatan Anda</p>
                     <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
                         <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Get Started</a>
-                        <a class="btn btn-outline-light btn-lg px-4" href="#buy">Buy now!</a>
+                        <a class="btn btn-outline-light btn-lg px-4" href="#buy">Shop now!</a>
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@
 <section id = "buy" class="bg-light py-5 border-bottom">
     <div class="container px-5 my-5">
         <div class="text-center mb-5">
-            <h2 class="fw-bolder">Manfaat</h2>
+            <h2 class="fw-bolder">Order now!</h2>
             <p class="lead mb-0">Beli jamu herbal sekarang juga dan rasakan manfaatnya!</p>
         </div>
         <div class="row gx-5 justify-content-center">
