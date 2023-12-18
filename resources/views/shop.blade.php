@@ -9,13 +9,14 @@
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	
-	<link rel="stylesheet" href="{{ asset('css/style.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/home.css') }}">
 
 </head>
 <body>
   
-    <nav class="navbar navbar-expand-lg ftco_navbar ftco-navbar-light" id="ftco-navbar">
+  
+  <nav class="navbar navbar-expand-lg ftco_navbar ftco-navbar-light" id="ftco-navbar">
     <div class="container">
         <a class="navbar-brand" href="index.html">Djamu Herbal</a>
         <div class="social-media order-lg-last">
@@ -23,8 +24,12 @@
                 <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
                 <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
                 <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
-                <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-dribbble"><i class="sr-only">Dribbble</i></span></a>
+                @auth 
+                <a href="{{ route('logout') }}" class="d-flex align-items-center justify-content-center"><span class="fa fa-sign-out"><i class="sr-only">Dribbble</i></span></a>
+                @endauth
                 <a class="btn btn-outline-dark d-flex align-items-center justify-content-center" href="{{ route('shopping.cart') }}">
+                
+
                     <i class="fa fa-shopping-cart" aria-hidden="true"></i><span class="badge text-bg-danger fa fa-dribbble">{{ count((array) session('cart')) }}</span>
                  </a>
             
@@ -37,16 +42,12 @@
         <ul class="navbar-nav ml-auto mr-md-3">
             <li class="nav-item active"><a href="{{route ('home')}}" class="nav-link">Home</a></li>
             <li class="nav-item"><a href="#Customer" class="nav-link">About</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Work</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
           <li class="nav-item"><a href="#contactForm" class="nav-link">Contact</a></li>
           
         </ul>
       </div>
     </div>
   </nav>
-
-  
   
 
   

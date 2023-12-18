@@ -8,11 +8,17 @@
         <div class="row gx-5 justify-content-center">
             <div class="col-lg-6">
                 <div class="text-center my-5">
+                    @auth 
+                    <p class="lead text-white mb-4">Welcome <b>{{ Auth::user()->name }}</b>!!</p> 
+                    @endauth
                     <h1 class="display-5 fw-bolder text-white mb-2">Djamu Herbal</h1>
                     <p class="lead text-white-50 mb-4">Temukan jamu herbal berkualitas dan alami untuk menjaga kesehatan Anda</p>
                     <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
-                        <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Get Started</a>
-                        <a class="btn btn-outline-light btn-lg px-4" href="#buy">Shop now!</a>
+                        <a class="btn btn-outline-light btn-lg px-4" href="{{ route('register') }}">Register</a>   
+                        <a class="btn btn-outline-light btn-lg px-4" href="{{ route('login') }}">Log in</a>
+                        @auth
+                        <a class="btn btn-primary" href="{{ route('password') }}">Change Password</a>
+                        @endauth
                     </div>
                 </div>
             </div>

@@ -15,33 +15,43 @@ class BookSeeder extends Seeder
         $books = [
             [
                 'name' => 'Temulawak',
-                'author' => '',
-                'image' => 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-1VwWe6j2RjU%2FXnh2179j4PI%2FAAAAAAAAH64%2FdaG0vMEQAMIbrbdAWWTHXJc7j_rCT2pKQCLcBGAsYHQ%2Fs1600%2Fjamu2.jpg&f=1&nofb=1&ipt=22566ec11d553b623214ffdde2a5f77c4f4f4c3459a070e09f540755e859de2e&ipo=images',
+                'author' => 'Meningkatkan daya tahan tubuh
+                Membantu mengatasi penyakit infeksi
+                Memperlancar pencernaan',
+                'image' => 'https://i.pinimg.com/564x/82/98/8f/82988fa4d380e85cf62c8a55da51038e.jpg',
                 'price' => 14
             ],
             [
-                'name' => 'The Simple Wild',
-                'author' => 'KA Tucker',
-                'image' => 'https://bookcart.azurewebsites.net/Upload/b868eb26-f12c-4dcf-ba19-03e0d6cafb8d36373564.jpg',
-                'price' => 1153
+                'name' => 'Jahe',
+                'author' => 'Meredakan mual dan muntah.
+                Meningkatkan pencernaan. 
+                Meningkatkan daya tahan tubuh. ',
+                'image' => 'https://i.pinimg.com/564x/02/57/1d/02571d779e453be8ee731fa8d3acbc94.jpg',
+                'price' => 11
             ],
             [
-                'name' => 'The Hate You Give',
-                'author' => 'Angie Thomas',
-                'image' => 'https://bookcart.azurewebsites.net/Upload/3d894fa1-8746-4443-b244-99624cc39f1fq1we.jpg',
-                'price' => 227
+                'name' => 'Kulit Manggis',
+                'author' => 'Meningkatkan sistem kekebalan tubuh.
+                Membantu menurunkan kolesterol.
+                Menjaga kesehatan kulit.',
+                'image' => 'https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2022/06/27/2774778979.jpg',
+                'price' => 10
             ],
             [
-                'name' => 'The Martian',
-                'author' => 'Andy Weir',
-                'image' => 'https://bookcart.azurewebsites.net/Upload/5b7162d6-2780-461b-be6f-e4debac083ad18007564.jpg',
-                'price' => 348
+                'name' => 'Wedang uwuh',
+                'author' => 'Menghangatkan tubuh
+                Meningkatkan daya tahan tubuh
+                Melawan peradangan',
+                'image' => 'https://i.pinimg.com/564x/93/19/c6/9319c6dcbcb5fbbfb5200b39be989cd6.jpg',
+                'price' => 8
             ],
             [
-                'name' => 'The Beholder',
-                'author' => 'Anna Bright',
-                'image' => 'https://bookcart.azurewebsites.net/Upload/5ba1968d-a7f5-4a04-99c2-281088b8532fqq.jpg',
-                'price' => 998
+                'name' => 'Kunyit',
+                'author' => 'Meningkatkan daya tahan tubuh
+                Mengobati radang
+                Meredakan nyeri',
+                'image' => 'https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/06/21075213/Tingkatkan-Sistem-Imun-Ini-11-Manfaat-Kunyit-Asam-untuk-Kesehatan.jpg',
+                'price' => 12
             ]
         ];
         foreach ($books as $key => $value) {
